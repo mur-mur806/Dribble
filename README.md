@@ -34,38 +34,34 @@ muruga.html
   <title>Dribble</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="bg-dark text-light">
-
-  <nav class="navbar navbar-dark bg-black px-4 d-flex justify-content-between align-items-center">
+<body class="text-dark">
+  <nav class="navbar navbar-dark px-4 d-flex">
     <span class="navbar-brand mb-0 h1 text-success fw-bold fst-italic">Dribble</span>
-    <div>
-      <a href="#" class="text-white text-decoration-none fw-bold me-3">Sign in</a>
-      <a href="#" class="btn btn-success btn-sm fw-bold">Login</a>
-    </div>
-  </nav>
-
-  <section class="bg-secondary text-center py-4">
-    <h4 class="fw-bold">What are you working on?</h4><p>Dribble is show and tell for designers.</p>
-
-    <div class="mt-3">
-      <button class="btn btn-info >Learn more</button>
-      <button class="btn btn-warning">Sign up</button>
-    </div>
-    <hr class="border-light mt-4">
-  </section>
-
    <li class="nav-item me-3 p-2">
-        <a class="nav-link text-white" href="#">Home</a>
+        <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item me-3 p-2">
-        <a class="nav-link text-white" href="#">About</a>
+        <a class="nav-link" href="#">About</a>
       </li>
         <li class="nav-item me-3 p-2">
-            <a class="nav-link text-white" href="#">Services</a>
+            <a class="nav-link" href="#">Services</a>
         </li>
       <li class="nav-item me-3 p-2">   
-        <a class="nav-link text-white" href="#">Contact</a> 
-            
+        <a class="nav-link" href="#">Contact</a> 
+      </li>
+      <a href="#" class=" text-decoration-none fw-bold me-3">Sign in</a>
+      <a href="#" class="btn btn-success btn-sm fw-bold">Login</a>
+  </nav>
+
+  <section class="bg-primary text-center py-4">
+    <h4 class="fw-bold">What are you working on?</h4><p>Dribble is show and tell for designers.</p>
+    <div class="mt-3">
+      <button class="btn btn-info" >Learn more</button>
+      <button class="btn btn-warning">Sign up</button>
+    </div>
+    <hr class="bg-danger mt-4">
+  </section>
+   
             <div class="container py-4">
     <div class="row g-4 text-center">
 
@@ -154,14 +150,14 @@ muruga.html
       </div>
 
   </div>
-<h2 align="center">Muruga Perumal - 25016797</h2>
+<footer class="bg-dark text-light text-center mt-auto">Muruga Perumal - 25016797</footer>
 </body>
 </html>
 
 ```
 
 ## OUTPUT:
-![alt text](<perumal/myapp/static/Screenshot (66).png>)
+![alt text](<perumal/myapp/static/Screenshot (67).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
